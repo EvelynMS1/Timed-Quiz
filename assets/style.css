@@ -1,0 +1,52 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+  /* align-items: center;
+  align-content: center; */
+}
+.answer,
+.subitHighScorebtn,
+.restartbtn,
+.clearbtn {
+  border-radius: 5px;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px;
+  display: block;
+  width: 50%;
+}
+/* .option-button, */
+.option-button {
+  margin: 2px;
+  display: flex;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: blueviolet;
+  width: 50%;
+}
+.timer {
+  display: inline;
+}
+.statement_question {
+  display: block;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+.btndiv {
+  display: flex;
+  justify-content: space-between;
+}
+.selectedAnswer {
+  border-top: solid;
+  color: grey;
+}
+.divScores {
+  background-color: plum;
+  padding-right: 10px;
+}

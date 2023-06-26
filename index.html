@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Quiz</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="topbar">
-        <div class="viewhighscores">
-
-        </div> 
-        <div class="timerclock">
-
-        </div>
-
+      
+      <div class="timerclock">
+        <!-- <p class="timeName">Time:</p> -->
+        Time:
+        <p class="timer">0</p>
+      </div>
+      <div class="viewhighscores">View High Scores</div>
     </header>
-    <main>
-        <div class="statement_question">
-          <p> Ready to crush it?!</p> 
-        </div>
-        <button class="answer">
-            Start Quiz
-        </button>
+    <main class="mainDiv">
+      <div class="statement_question">
+        <h1>Ready to crush it?!</h1>
+        <button class="answer">Start Quiz</button>
 
-        <div class="quiz_question">
-
-        </div>
-
+      </div>
+      <div class="highScores">
+        
+      </div>
+      <div class="quiz_question">
+      <div class="displayscores">
+        
+      </div>
+      </div>
     </main>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
